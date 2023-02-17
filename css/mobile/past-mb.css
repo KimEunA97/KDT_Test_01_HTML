@@ -1,0 +1,81 @@
+@media screen and (max-width : 430px) {
+
+  .past {
+
+    /* past 폰트 작업 */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    font-size: 96px;
+
+
+    /* 마진으로 좌우 맞추기 */
+    margin-right: 58px;
+    flex-direction: column;
+
+
+
+  }
+
+  /* 폰트 겹치기 */
+  .past>div {
+
+    margin: -45px;
+
+    /*  좌우는 마진 고정 */
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  /* past 문구 색 */
+  .past>div {
+    color: var(--past-font-1);
+  }
+
+  /* 순서 지정해서 색 변경  */
+  .past>div:nth-child(n+2):nth-child(-n+4) {
+    color: var(--past-font-2)
+  }
+
+  /* past 화살표 */
+  .past-arrow {
+
+    position: relative;
+    top: 120px;
+
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  /* past 내용 */
+  .past-detail {
+
+
+
+    position: relative;
+    top: 180px;
+    text-align: center;
+    width: 285px;
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* past 내용 폰트 설정 */
+  .past-detail>div {
+
+
+    color: var(--main-blue);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+  }
+}

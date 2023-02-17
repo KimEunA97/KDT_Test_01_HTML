@@ -1,0 +1,117 @@
+@media screen and (min-width : 431px) and (max-width : 1164px) {
+
+  .container {
+    margin: 0px;
+  }
+
+  /* expert 탭 높이  */
+  .head {
+
+
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+
+  }
+
+  /* past 내용 위치 전체적으로 조절  */
+  .main {
+    height: 864px;
+    position: relative;
+    top: 90px;
+    left: 60px;
+  }
+
+
+  /* expert 탭 */
+  .expert {
+
+    display: flex;
+    flex-direction: column;
+
+
+    /* 박스 안 색상 모두 채우기 */
+    width: 100%;
+    height: 100px;
+
+    /* 폰트 가운데로 */
+
+    justify-content: center;
+    text-align: center;
+
+
+    /* 시그니쳐 색 적용 */
+    background-color: var(--main-blue);
+    color: var(--main-white);
+
+  }
+
+  /* 풀스택 문구 폰트 작업 */
+  .expert>div>div:nth-child(1) {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15px;
+
+  }
+
+  /* 화살표 */
+  .expert>div:nth-child(2) {
+
+    /* 퍼온거 */
+    /* position: absolute;
+    left: 0; 
+    top: 0; 
+    content: '';
+    width: 50px; 
+    height: 50px;
+    border-top: 5px solid #000;
+    border-right: 5px solid #000; 
+    transform: rotate(225deg); */
+
+    /* border: ; */
+
+    justify-content: right;
+    margin-right: 18px;
+
+  }
+
+
+
+  /* 교육과정 배경 + 크기 */
+  .edu {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 200px;
+    background-color: var(--edu-bg);
+
+
+
+  }
+
+  /* 폰트 위치 + 색  */
+  .edu>div {
+    position: relative;
+    margin-top: 2px;
+
+    left: 60px;
+    color: var(--edu-font);
+  }
+
+  .first {
+
+    display: flex;
+    flex-direction: column;
+    height: 1164px;
+
+  }
+
+
+
+}

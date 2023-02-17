@@ -1,0 +1,67 @@
+@media screen and (min-width : 431px) and (max-width : 1164px) {
+
+
+
+
+  /* KDT 로고 크기 위치 */
+  .KDT {
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    min-height: 1368px;
+    background-color: var(--main-blue);
+
+    
+
+
+
+    /* KDT 글자 */
+  }
+
+  .KDT>div {
+
+    
+    position: relative;
+    left: 60px;
+    max-height: 10%;
+  }
+
+  .KDT>div:nth-child(1) {
+
+
+    margin-left: 19px;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 130px;
+    color: var(--main-white);
+
+
+  }
+
+  .KDT>div:nth-child(2){
+
+    position: relative;
+    left: 100px;
+
+  }
+
+  /* KDT 아랫선 */
+  .KDT_line {
+
+    display: flex;
+
+    justify-content: center;
+    min-height: 3px;
+    width: 80%;
+    background-color: var(--KDT-line);
+
+  }
+
+
+
+}

@@ -1,0 +1,60 @@
+@media screen and (min-width:1165px) {
+
+
+
+
+
+  /* 인포 폰트작업 + 배경색 채우기*/
+  .info {
+
+    color: var(--foot-font);
+    background-color: var(--foot-bg);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
+    height: 100%;
+
+
+
+  }
+
+
+  /* 선 크기 + 전체적인 위치 조절 */
+  .info>div {
+
+    position: relative;
+    top: 30px;
+
+    margin-top: 10px;
+    width: 80%;
+
+  }
+
+
+  /*  info 내용 텍스트 */
+  .info_detail>div {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+
+    margin: 5px;
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  .info_line {
+
+
+
+    background-color: #D9D9D9;
+    height: 2px;
+
+  }
+}
